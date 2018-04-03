@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  	<Receive 
+      mediaType="image/tiff" 
+      storeMedia="true" 
+      action="https://{{YOUR-RUNTIME-DOMAIN-HERE}}twil.io/portable-fax-received" />
+</Response>

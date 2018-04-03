@@ -1,0 +1,21 @@
+{
+  "name": "portable-fax-receiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "portable-fax-receiver",
+  "scripts": {
+    "app": "node portable-fax-receiver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "get-pixels": "^3.3.0",
+    "javascript-state-machine": "^3.0.1",
+    "lodash": "^4.17.5",
+    "serialport": "^6.1.1",
+    "twilio-common": "^0.1.7",
+    "twilio-sync": "^0.7.4"
+  }
+}
