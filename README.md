@@ -16,7 +16,7 @@ This repository demonstrates how to create a portable fax machine using a Raspbe
 * Optional
 	* [USB to TTL adapter](https://www.amazon.com/gp/product/B075N82CDL/ref=oh_aui_detailpage_o05_s00?ie=UTF8&psc=1)
 
-#### Additional Requirements
+#### Additional requirements
 * [Twilio account](https://www.twilio.com/try-twilio)
 
 #### Software and services
@@ -27,13 +27,13 @@ This repository demonstrates how to create a portable fax machine using a Raspbe
 	* [Programmable Wireless](https://www.twilio.com/wireless)
 	* [Sync](https://www.twilio.com/sync)
 
-#### Hardware Guides/Instructions
+#### Hardware guides
 Follow along with these guides to
 1. [Set up the Raspbian operating system](http://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/)
 2. [Set up the thermal printer](https://learn.adafruit.com/networked-thermal-printer-using-cups-and-raspberry-pi/overview)
 3. [Set up the SixFab 3G/4G modem](http://sixfab.com/updated-tutorial-3-make-a-ppp-internet-connection-with-3g-4glte-shields-on-raspberry-pi/)
 
-#### Software Guides
+#### Software guides
 Follow along in each folder in this repository to
 1. [Set up your Twilio services](/runtime)
 2. [Set up your server](/server)
