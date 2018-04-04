@@ -1,6 +1,6 @@
 
 # Portable Fax Machine
-This repository demonstrates how to create a portable fax printer machine using a Raspberry Pi and Twilio services.
+This repository demonstrates how to create a portable fax machine using a Raspberry Pi and Twilio services.
 
 ![Portable Printer](images/portable-printer.jpg)
 
