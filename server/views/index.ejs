@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portable fax machine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <img src="twilio-logo-blue.png" alt="twilio-logo">
+            <h1 class="title">Portable Fax Dashboard</h1>
+            <table id="faxesTable">
+                <thead>
+                    <tr>
+                        <th v-for="col in columns" v-if="col !== 'document' && col !== 'index'" v-on:click="sortTable(col)">{{col}}
+                            <div class="arrow" v-if="col == sortColumn" v-bind:class="ascending ? 'arrow_up' : 'arrow_down'"></div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="row in rows">
+                        <td>
+                            <a target="_blank" v-bind:href="row.document">{{row.sid}}</a>
+                        </td>
+                        <td>{{row.from}}</td>
+                        <td>{{row.pages}}</td>
+                        <td>{{row.status}}</td>
+                        <td>
+                            <a class="btn action" v-on:click="printFax(row)">Print</a>
+                            <a class="btn danger" v-on:click="deleteFax(row)">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/vue"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.0"></script>
+<script src="https://media.twiliocdn.com/sdk/js/common/v0.1/twilio-common.min.js"></script>
+<script src="//media.twiliocdn.com/sdk/js/sync/v0.7/twilio-sync.min.js"></script>
+<script src="helpers.js"></script>
+<script src="index.js"></script>
+
+</html>
