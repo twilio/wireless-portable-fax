@@ -3,7 +3,7 @@
 
 ### Run the Node.JS Express server
 
-The scripts located in this folder are meant to be run on the Raspberry Pi or using a cloud hosting application such as [Heroku](https://www.heroku.com/).
+The scripts located in this folder are meant to be run on your local computer or a cloud hosting application such as [Heroku](https://www.heroku.com/).
 
  ### Steps required to successfully run these scripts
  1. Download this repository to a local directory
