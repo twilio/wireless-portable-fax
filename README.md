@@ -9,7 +9,7 @@ This repository demonstrates how to create a portable fax machine using a Raspbe
 Dashboard built with [Vue.js](https://vuejs.org/).
 
 #### Hardware requirements
-* [Portable fax machine shopping list](http://a.co/hOdSTe4)
+* [Portable fax machine shopping list](http://a.co/1yhQJWX)
 * [Programmable Wireless SIM card](https://www.twilio.com/console/wireless/orders/new)
 
 You can replace your USB modem with a 4G LTE shield:
