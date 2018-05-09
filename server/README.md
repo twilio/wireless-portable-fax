@@ -6,10 +6,9 @@
 The scripts located in this folder are meant to be run on the Raspberry Pi or using a cloud hosting application such as [Heroku](https://www.heroku.com/).
 
  ### Steps required to successfully run these scripts
- 0. Download this repository to a local directory
- 1. Create [Twilio Runtime functions](../runtime)
- 2. Run [portable-fax-receiver script](../pi) in a Terminal
- 3. Update Node.JS
+ 1. Download this repository to a local directory
+ 2. Create [Twilio Runtime functions](../runtime)
+ 3. Install the modules
 
 #### Configure the Express Server
 ##### `/api/config.js` 
@@ -21,18 +20,6 @@ The scripts located in this folder are meant to be run on the Raspberry Pi or us
 6. Save the file
 
 > Need help creating these Functions and Sync Service Sid? Follow the steps in the [runtime directory](../runtime).
-
-#### How to update Node.JS on a Raspberry Pi
-Node.JS comes preinstalled with the Raspbian operating system. In this section you will update Node.JS to the latest version.
-
-#### Update Node.JS
-Follow the next steps in a Terminal.
-
-1. Type `sudo apt update` to make sure apt is up to date
-2. Type `curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -`
-3. Type `sudo apt install -y nodejs`
-
-> Want to learn more about configuring the Raspbian operating system? [Visit this guide](http://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/) for first time configuration of the Raspbian operating system.
 
 #### Install the modules
 Follow the next steps in a Terminal.
