@@ -18,7 +18,7 @@ Serverless architecture is a software design pattern where applications are host
 9. Set the phone number to point to your newly created Function
 
 ### Create a Sync Service Instance
-Twilio Sync is used for synchronization and data storage for this fax-machine's state. Complete the following steps to a Sync Service Instance:
+Twilio Sync is used for synchronization and data storage for this fax machine's state. Complete the following steps to create a Sync Service Instance:
 
 -   Visit [Sync Services](https://www.twilio.com/console/sync/services) to create a new instance
 -   Click the **red + button**
