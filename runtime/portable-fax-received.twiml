@@ -3,5 +3,5 @@
   	<Receive 
       mediaType="image/tiff" 
       storeMedia="true" 
-      action="https://{{YOUR-RUNTIME-DOMAIN-HERE}}twil.io/portable-fax-received" />
+      action="https://{{YOUR-RUNTIME-DOMAIN-HERE}}/portable-fax-received" />
 </Response>
