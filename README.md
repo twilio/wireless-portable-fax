@@ -1,6 +1,8 @@
 # Portable Fax Machine
 This repository demonstrates how to create a portable fax machine using a Raspberry Pi and Programmable Fax.
 
+[Learn more by reading the blog post on blog.twilio.com.](https://www.twilio.com/blog/2018/05/build-a-cellular-connected-raspberry-pi-fax-machine.html)
+
 #### Printer
 ![Portable Printer](images/portable-printer.jpg)
 
