@@ -4,7 +4,7 @@
   "description": "",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "ejs": "^2.5.7",
+    "ejs": "^3.1.6",
     "express": "^4.16.3",
     "form-data": "^2.3.2",
     "node-fetch": "^2.1.2",
